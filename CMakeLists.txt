@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(crevive C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+add_executable(crevive src/c/crevive.c)
+if(UNIX)
+  target_link_libraries(crevive PRIVATE m)
+endif()

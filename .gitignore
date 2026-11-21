@@ -1,0 +1,8 @@
+crevive-c
+*.exe
+*.dll
+*.pdb
+bin/
+obj/
+target/
+tests/actual_*.txt
